@@ -1,4 +1,4 @@
-package java_completo.Entities;
+package java_completo.entities;
 
 public class Triangulo {
 

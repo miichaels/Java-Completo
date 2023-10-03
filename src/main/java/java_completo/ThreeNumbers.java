@@ -3,7 +3,7 @@ package java_completo;
 import java.util.Scanner;
 
 public class ThreeNumbers {
-    public static void main(String[] args) {
+    public  void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter three numbers");

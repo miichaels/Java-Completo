@@ -1,4 +1,4 @@
-package java_completo.Entities;
+package java_completo.entities;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -36,6 +36,6 @@ public class ProgramPOO {
         }else {
             System.out.println("Maior area: Y");
         }
- 
+
     }
 }
