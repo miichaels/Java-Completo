@@ -15,7 +15,6 @@ public class Produtos {
         this.preco = preco;
         this.quantidade = quantidade;
     }
-
     public Produtos(String nome, double preco) {
         this.nome = nome;
         this.preco = preco;
