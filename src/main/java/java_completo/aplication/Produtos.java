@@ -5,7 +5,20 @@ public class Produtos {
     public double preco;
     public int quantidade;
 
-    public Produtos() {
+
+    public Produtos(){
+    }
+
+    public Produtos(String nome, double preco, int quantidade) {
+        //this.nome referencia o nome(Objeto) recebendo o nome do construtor
+        this.nome = nome;
+        this.preco = preco;
+        this.quantidade = quantidade;
+    }
+
+    public Produtos(String nome, double preco) {
+        this.nome = nome;
+        this.preco = preco;
     }
 
     public double totalEmEstoque() {
