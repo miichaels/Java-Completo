@@ -22,7 +22,6 @@ public class Negativos {
                 System.out.println(vet[i]);
             }
         }
-
         scanner.close();
 
     }
