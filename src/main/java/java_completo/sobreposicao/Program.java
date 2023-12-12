@@ -40,7 +40,7 @@ public class Program {
 
         Account acc7 = new BussinesAccount(1003, "Bob", 1000.0, 500.0);
         acc7.withdraw(200.0);
-        System.out.println(acc7.getBalance());
+        System.out.println(acc7.getBalance() );
 
 
     }
