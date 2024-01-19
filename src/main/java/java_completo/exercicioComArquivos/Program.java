@@ -37,7 +37,7 @@ public class Program {
                 String[] filds = itemCsv.split(",");
                 String name = filds[0];
                 double price = Double.parseDouble(filds[1]);
-                int quantity = Integer.parseInt(filds[2].trim()oa);
+                int quantity = Integer.parseInt(filds[2].trim());
 
                 list.add(new Product(name, price, quantity));
 
